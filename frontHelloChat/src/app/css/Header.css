@@ -1,0 +1,139 @@
+.header-container {
+    width: 100%;
+    height: 60px;
+    background: #20232B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo-block {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 20px;
+}
+.header-logo {
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-name-app {
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 10px;
+    font-family: "Poppins", sans-serif;
+}
+.header-nav {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.nav-bt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #9FA1A2;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Добавляем плавные переходы */
+}
+
+.nav-bt-active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #F2FC89;
+    text-decoration: none;
+}
+
+.nav-bt:hover {
+    color: #F2FC89;
+}
+
+/* Для более плавной анимации активного элемента */
+.nav-bt-active {
+    color: #F2FC89;
+    position: relative;
+}
+
+.nav-bt-active::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #F2FC89;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
+}
+
+.nav-bt-active:hover::after {
+    transform: scaleX(1);
+}
+
+.header-bg {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.bg-bt-active, .phone-bt-active, .bell-bt-active {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: #F2FC89;
+    text-decoration: none;
+}
+.nav-bt-bg {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Добавляем плавные переходы */
+}
+.nav-bt-bg:hover {
+    color: #F2FC89;
+}
+.user-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.header-user-info {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.user-info-p {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}

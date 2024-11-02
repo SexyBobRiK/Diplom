@@ -1,0 +1,100 @@
+.container-regis {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C1E25;
+    color: whitesmoke;
+}
+.main-regis {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.form-regis {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    box-sizing: border-box;
+}
+.title-regis{
+    font-size: 52px;
+}
+.email-regis  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.email-regis-i {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #15171C;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.pass-regis {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #15171C;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.submit-regis {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.submit-btn {
+    background-color: #F2FC89;
+    color: #15171C;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+.reg-btn {
+    background-color: #5852D6;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+.reg-btn:hover {
+    background-color: #473C9B;
+    color: white;
+}
+.submit-btn:hover {
+    background-color: #deeb51;
+}
+
+.err-msg {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+

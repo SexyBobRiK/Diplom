@@ -1,0 +1,45 @@
+.not-found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  .not-found-content {
+    max-width: 500px;
+  }
+  
+  .not-found-icon {
+    font-size: 64px;
+    margin-bottom: 20px;
+  }
+  
+  .title-not-found {
+    font-size: 96px;
+    color: #333;
+  }
+  
+  .oops-not-found {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .desc-not-found {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 20px;
+  }
+  
+  .back-home-link {
+    font-size: 16px;
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .back-home-link:hover {
+    text-decoration: underline;
+  }
+  
